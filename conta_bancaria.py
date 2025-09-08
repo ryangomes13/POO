@@ -99,7 +99,7 @@ def main():
                 print("Operações:\n[1] - Sacar;\n[2] - Depositar;\n[3] - Transferir.")
                 opera = int(input("Escolha: "))
                 if opera == 1:
-                    valor = float(input("Insira o valo que deseja sacar: "))
+                    valor = float(input("Insira o valor que deseja sacar: "))
                     conta_pessoa1.sacar(valor)
                 elif opera == 2:
                     valor_deposito = float(input("Insira o valor do deposito: "))
@@ -216,4 +216,5 @@ def main():
             print("Saindo do programa...")
             break            
                            
+
 main()
